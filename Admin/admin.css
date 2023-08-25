@@ -38,6 +38,25 @@ body {
     font-weight: 400;
     line-height: normal;
 }
+.logout{
+    display: flex;
+    gap: 7px;
+}
+.logout{
+    margin-top: 5px;
+    margin-left: 90px;
+}
+.matric{
+    margin-top: 5px;
+}
+.logout p{
+    color: #1BB172;
+font-family: Raleway;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
 .welcome {
     margin: 10px 100px;
     display: flex;
@@ -50,12 +69,12 @@ body {
     flex-direction: column;
     color: #313131;
     font-size: 30px;
-    margin-top: 120px;
+    margin-top: 130px;
     font-style: normal;
     font-weight: 500;
 }
-.welcome-text .pay{
-    margin-top: -7px;
+.welcome-text p{
+    padding: 10px;
 }
 .login {
     border-radius: 16px;
@@ -114,18 +133,23 @@ body {
     font-weight: 500;
     line-height: normal;
 }
-.dashboard{
- gap: 30px;
-}
 .dashboard, .active, .payment, .btn{
  display: flex;
- gap: 7px;
- padding: 20px;
+ gap: 8px;
+}
+.dashboard{
+    gap: 80px;
+    margin-bottom: 50px;
 }
 .side-bar{
  margin-top: 30px;
  margin-left: 64px;
- margin-right: 70px;
+ padding: 0 20px;
+ background-color: #FBFBFB;
+}
+.side-bar div{
+    margin-top: 20px;
+    padding:10px 20px;
 }
 .btn{
  padding: 16px;
@@ -135,6 +159,8 @@ body {
 font-family: Raleway;
 font-size: 16px;
 border: none;
+/* width: 212px; */
+/* gap: 3px; */
 }
 .active, .payment{
  color: #3F3F46;
@@ -149,7 +175,12 @@ tr{
 gap: 100px;
 }
 td{
- padding: 20px;
+ padding: 20px 40px;
+ width: 250px;
+}
+table{
+ margin-right: 20px;
+ width: 100%;
 }
 td h4{
 color: #313131;
@@ -275,4 +306,22 @@ font-weight: 400;
 line-height: normal;
 padding: 12px 24px;
 border: none;
+}
+.hero{
+ display: flex;
+ margin: 30px 64px;
+ justify-content: space-between;
+}
+.asset div{
+ display: flex;
+ gap: 7px;
+}
+.asset div img{
+    color: #252C32;
+    font-size: 30px;
+    font-weight: 700;
+}
+.asset div hr{
+    margin: 0;
+    color: red;
 }
